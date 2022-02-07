@@ -1,5 +1,12 @@
 const fetch = require("node-fetch");
 
+// class Pizza {
+//     function setPrice() {
+//         return 
+//     }
+// }
+
+
 describe("Be able to create an order", () => {
   // order a large pepperoni pizza
   it("should allow us to create an order with a single item", async () => {
@@ -13,7 +20,8 @@ describe("Be able to create an order", () => {
                     subtractions: []
                 },
                 {
-                    id: "CUSTOM_UUID",
+                    id: "CUSTOM",
+                    base: "",
                     additions: [],
                     subtractions: []
 
