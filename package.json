@@ -1,0 +1,19 @@
+{
+  "name": "phdv-interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest tests",
+    "start": "node ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.0"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "node-fetch": "^2.6.7"
+  }
+}
